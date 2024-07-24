@@ -5,11 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- add table here -->
+    <link rel="stylesheet"  type="text/css" href="styles.css">
+	<title>Game Statistics</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 20px;
+    }
+     table {
+        width: 100%;
+        margin: 20px auto;
+        border-collapse: collapse ;
+        border: 2px solid #1e88e5; /* Border color */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional box-shadow */
+	 }
+    th, td {
+        border: 1px solid #1e88e5; /* Border color */
+        padding: 10px;
+        text-align: center;
+    }
+    th {
+        background-color: #1e88e5; /* Header background color */
+        color: white;
+    }
+    tr:nth-child(even) {
+        background-color: #f2f2f2; /* Even row background color */
+    }
+    tr:hover {
+        background-color: #e0e0e0; /* Hover row background color */
+    }
+</style>
 
-        
+</head>
+	
+<body>
+	<h2 style="text-align: center;">Game Statistics</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>Score</th>
+                <th>Level</th>
+				<th>Rating</th>
+				<th>Group</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Player 1</td>
+                <td>350</td>
+                <td>5</td>
+				<td> 2 star</td>
+				<td> Blue</td>
+            </tr>
+            <tr>
+                <td>Player 2</td>
+                <td>420</td>
+                <td>6</td>
+				<td>3 star</td>
+		        <td>red</td>
+            </tr>
+            <tr>
+                <td>Player 3</td>
+                <td>280</td>
+                <td>4</td>
+				<td>4 star</td>
+                <td>orange</td>
+            </tr>
+            <tr>
+                <td>Player 4</td>
+                <td>390</td>
+                <td>5</td>
+				<td>3 star</td>
+		        <td>green</td>
+            </tr>
+            <tr>
+                <td>Player 5</td>
+                <td>460</td>
+                <td>6</td>
+				<td>5 star</td>
+		        <td>red</td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
 </html>
